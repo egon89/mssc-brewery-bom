@@ -158,7 +158,7 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>[3.9.0,)</version> <!-- 3.9.0 or higher -->
+                                    <version>[3.8.0,)</version> <!-- 3.8.0 or higher -->
                                 </requireMavenVersion>
                                 <requireJavaVersion>
                                     <version>[17,)</version> <!-- 17 or higher -->
@@ -174,4 +174,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/egon89/mssc-brewery-bom</url>
+        </repository>
+    </distributionManagement>
 </project>
