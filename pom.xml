@@ -158,7 +158,7 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>[3.9.0,)</version> <!-- 3.9.0 or higher -->
+                                    <version>[3.8.0,)</version> <!-- 3.8.0 or higher -->
                                 </requireMavenVersion>
                                 <requireJavaVersion>
                                     <version>[17,)</version> <!-- 17 or higher -->
